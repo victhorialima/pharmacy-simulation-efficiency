@@ -1,0 +1,103 @@
+SIMAN Run Controller.
+
+10.803173 Minutes>
+                                      ARENA Simulation Results
+                                salicepa@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: PharmacyPrescription_OriginalProcess                        Run execution date :12/14/2024
+Analyst: Victhoria Lima                                              Model revision date:12/14/2024
+
+Replication ended at time      : 10.803173 Minutes (Saturday, December 30, 1899, 00:10:48)
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Vaccination Customer.VATime                     --         --         --         --          0
+Vaccination Customer.NVATime                    --         --         --         --          0
+Vaccination Customer.WaitTime                   --         --         --         --          0
+Vaccination Customer.TranTime                   --         --         --         --          0
+Vaccination Customer.OtherTime                  --         --         --         --          0
+Vaccination Customer.TotalTime                  --         --         --         --          0
+Customer.VATime                                 --         --         --         --          0
+Customer.NVATime                                --         --         --         --          0
+Customer.WaitTime                               --         --         --         --          0
+Customer.TranTime                               --         --         --         --          0
+Customer.OtherTime                              --         --         --         --          0
+Customer.TotalTime                              --         --         --         --          0
+Drop Off Customer.VATime                        --         --         --         --          0
+Drop Off Customer.NVATime                       --         --         --         --          0
+Drop Off Customer.WaitTime                      --         --         --         --          0
+Drop Off Customer.TranTime                      --         --         --         --          0
+Drop Off Customer.OtherTime                     --         --         --         --          0
+Drop Off Customer.TotalTime                     --         --         --         --          0
+Pick Up Customer.VATime                     2.7390     (Insuf)    2.5934     2.8846          2    
+Pick Up Customer.NVATime                    .00000     (Insuf)    .00000     .00000          2    
+Pick Up Customer.WaitTime                   .00000     (Insuf)    .00000     .00000          2    
+Pick Up Customer.TranTime                   1.5000     (Insuf)    1.5000     1.5000          2    
+Pick Up Customer.OtherTime                  .00000     (Insuf)    .00000     .00000          2    
+Pick Up Customer.TotalTime                  4.2390     (Insuf)    4.0934     4.3846          2    
+Vaccination Process.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000          2    
+Drop Off Information.Queue.WaitingTime      .00000     (Insuf)    .00000     .00000          1    
+Prescription Pick Up.Queue.WaitingTime      .30654     (Insuf)    .00000     1.5327          5    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Vaccination Customer.WIP                    .91112     (Insuf)    .00000     2.0000     2.0000    
+Customer.WIP                                .00000     (Insuf)    .00000     1.0000     .00000    
+Drop Off Customer.WIP                       .51780     (Insuf)    .00000     1.0000     1.0000    
+Pick Up Customer.WIP                        1.8979     (Insuf)    .00000     3.0000     3.0000    
+Jake.NumberBusy                             .66448     (Insuf)    .00000     1.0000     1.0000    
+Jake.NumberScheduled                        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jake.Utilization                            .66448     (Insuf)    .00000     1.0000     1.0000    
+Pharmacy Technician.NumberBusy              .00000     (Insuf)    .00000     .00000     .00000    
+Pharmacy Technician.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pharmacy Technician.Utilization             .00000     (Insuf)    .00000     .00000     .00000    
+Nurse.NumberBusy                            .77227     (Insuf)    .00000     1.0000     1.0000    
+Nurse.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nurse.Utilization                           .77227     (Insuf)    .00000     1.0000     1.0000    
+Pharmacist.NumberBusy                       .51780     (Insuf)    .00000     1.0000     1.0000    
+Pharmacist.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pharmacist.Utilization                      .51780     (Insuf)    .00000     1.0000     1.0000    
+Alice.NumberBusy                            .69791     (Insuf)    .00000     1.0000     1.0000    
+Alice.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Alice.Utilization                           .69791     (Insuf)    .00000     1.0000     1.0000    
+Vaccination Process.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Drop Off Information.Queue.NumberInQueue    .00000     (Insuf)    .00000     .00000     .00000    
+Prescription Pick Up.Queue.NumberInQueue    .14188     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Vaccination Customer.NumberIn               2.0000    
+Vaccination Customer.NumberOut              .00000    
+Customer.NumberIn                           8.0000    
+Customer.NumberOut                          8.0000    
+Drop Off Customer.NumberIn                  1.0000    
+Drop Off Customer.NumberOut                 .00000    
+Pick Up Customer.NumberIn                   5.0000    
+Pick Up Customer.NumberOut                  2.0000    
+Jake.NumberSeized                           3.0000    
+Jake.ScheduledUtilization                   .66448    
+Pharmacy Technician.NumberSeized            .00000    
+Pharmacy Technician.ScheduledUtilization    .00000    
+Nurse.NumberSeized                          2.0000    
+Nurse.ScheduledUtilization                  .77227    
+Pharmacist.NumberSeized                     1.0000    
+Pharmacist.ScheduledUtilization             .51780    
+Alice.NumberSeized                          2.0000    
+Alice.ScheduledUtilization                  .69791    
+System.NumberOut                            2.0000    
+
+
+Simulation run time: 0.53 minutes.
+Simulation run complete.
